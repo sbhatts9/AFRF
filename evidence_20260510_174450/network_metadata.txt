@@ -1,0 +1,5 @@
+=== NETWORK METADATA ===
+Collected at: 2026-05-10T17:44:50.768985
+Source IP: 192.168.1.45
+Alert ID: WZH-2082-001
+Severity: high

@@ -1,0 +1,5 @@
+=== SYSTEM LOGS ===
+Collected at: 2026-05-10T17:44:50.766318
+Target server: bank-server-01
+Source IP: 192.168.1.45
+Event: Multiple failed SSH login attempts detected - possible brute force attack

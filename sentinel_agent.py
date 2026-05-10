@@ -50,11 +50,18 @@ COLLECT: [list evidence items]""",
     result = response.json()
     llm_decision = result['response']
 
+    # Extract tier from LLM response
+    tier = "L2"  # default to L2 for safety
+    if "TIER: L1" in llm_decision:
+        tier = "L1"
+    elif "TIER: L2" in llm_decision:
+        tier = "L2"
+
     print("\n🤖 LLM TRIAGE DECISION:")
     print("-" * 30)
     print(llm_decision)
     print("-" * 30)
-    print(f"\n✅ Sentinel Agent complete at {datetime.now().isoformat()}")
-    print("📦 Passing decision to Collector Agent...")
+    print(f"\n✅ Sentinel Agent decided: {tier}")
+    print("📦 Passing to Collector Agent...")
 
-sentinel_agent(alert)
+    return tier
