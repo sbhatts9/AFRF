@@ -23,6 +23,10 @@ tier = sentinel_agent(alert)
 # Step 2 — Collector Agent grabs evidence
 evidence_folder, collected_files = collector_agent(alert, tier)
 
+# Step 3 — Integrity Agent hashes everything
+from integrity_agent import integrity_agent
+hash_record = integrity_agent(evidence_folder, collected_files)
+
 print("\n" + "=" * 50)
 print("PIPELINE COMPLETE")
 print(f"Evidence stored in: {evidence_folder}")
