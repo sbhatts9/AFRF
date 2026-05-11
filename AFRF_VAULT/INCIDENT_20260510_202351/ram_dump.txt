@@ -1,0 +1,4 @@
+=== RAM DUMP (SIMULATED) ===
+Captured at: 2026-05-10T20:23:51.852819
+Target: bank-server-01
+Simulated memory snapshot — real capture via winpmem/LiME in production

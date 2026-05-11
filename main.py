@@ -31,6 +31,10 @@ hash_record = integrity_agent(evidence_folder, collected_files)
 from vault_agent import vault_agent
 vault_receipt = vault_agent(evidence_folder, hash_record)
 
+# Step 5 — Auditor Agent writes chain of custody
+from auditor_agent import auditor_agent
+report = auditor_agent(alert, tier, evidence_folder, hash_record, vault_receipt)
+
 print("\n" + "=" * 50)
 print("PIPELINE COMPLETE")
 print(f"Evidence stored in: {evidence_folder}")

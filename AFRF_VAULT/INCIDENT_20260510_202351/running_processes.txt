@@ -1,0 +1,3 @@
+=== RUNNING PROCESSES (SIMULATED) ===
+Captured at: 2026-05-10T20:23:51.853877
+sshd, bash, python3, wazuh-agent, nginx

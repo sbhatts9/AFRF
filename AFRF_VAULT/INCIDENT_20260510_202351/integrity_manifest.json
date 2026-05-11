@@ -1,0 +1,10 @@
+{
+    "timestamp": "2026-05-10T20:23:51.855424",
+    "evidence_folder": "evidence_20260510_202351",
+    "hashes": {
+        "system_logs.txt": "72bdd21decd3e0de80c2920b917b082db718a60f80657e0c2faa585ebf4aa7d6",
+        "network_metadata.txt": "9910d3369e85ddcc6a9c284782ffc8f6600645cbefc7a6ba97ba91365e0cd8b2",
+        "ram_dump.txt": "a4f62c912b05dff11fd87bf3f83bd9560ed0974252c753d7823dc5a30a9b0790",
+        "running_processes.txt": "732ce7575e37f6002f1a020d7776999a243448e87682aeca1bd75aa475b27a93"
+    }
+}
