@@ -1,0 +1,8 @@
+{
+    "timestamp": "2026-05-10T20:17:28.254805",
+    "evidence_folder": "evidence_20260510_201728",
+    "hashes": {
+        "system_logs.txt": "b3011ae04ae7baee63f7ed8adeff466d0def6d10fbcc918efea54730dae32db3",
+        "network_metadata.txt": "396955f6383d60c2175a97f280f84eb6ea7546456bd8f7b60fe25c6de339102c"
+    }
+}

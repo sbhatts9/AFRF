@@ -27,8 +27,14 @@ evidence_folder, collected_files = collector_agent(alert, tier)
 from integrity_agent import integrity_agent
 hash_record = integrity_agent(evidence_folder, collected_files)
 
+# Step 4 — Vault Agent stores evidence securely
+from vault_agent import vault_agent
+vault_receipt = vault_agent(evidence_folder, hash_record)
+
 print("\n" + "=" * 50)
 print("PIPELINE COMPLETE")
 print(f"Evidence stored in: {evidence_folder}")
 print(f"Files collected: {collected_files}")
+print(f"Integrity hashes generated: {len(hash_record['hashes'])}")
+print(f"Vault receipt created: {vault_receipt['vault_path']}")  
 print("=" * 50)
