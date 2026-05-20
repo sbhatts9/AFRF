@@ -4,7 +4,7 @@ LLM-powered multi-agent system for automated digital evidence collection, preser
 
 ## Overview
 
-AFRF is a forensic readiness framework designed for financial institutions, with a primary case study in Nepal's banking sector. When a security incident is detected, AFRF's AI agents automatically collect, hash, vault, and document digital evidence — without human intervention — preserving forensic integrity from the moment of detection (t=0).
+AFRF is a forensic readiness framework designed for financial institutions, with a primary case study in Nepal's banking sector. When a security incident is detected, AFRF's AI agents automatically collect, hash, vault, and document digital evidence without human intervention, preserving forensic integrity from the moment of detection (t=0).
 
 This addresses the **Human Latency Gap**: the window between incident detection and manual evidence collection where evidence can be lost, corrupted, or rendered legally inadmissible.
 
